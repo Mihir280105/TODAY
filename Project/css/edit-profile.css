@@ -1,0 +1,16 @@
+.nav-item:hover{
+    background:grey;
+  }
+  #logo{
+    animation: spin 7s infinite linear;
+  }
+  @keyframes spin {
+100%{
+transform: rotate(360deg); 
+}
+}
+#img {
+    width: 225px;
+    height: 180px;
+    object-fit: cover;
+}
